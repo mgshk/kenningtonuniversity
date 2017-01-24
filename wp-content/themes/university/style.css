@@ -1,0 +1,118 @@
+body
+{
+    font-family: 'Open Sans', sans-serif !important;
+    background: #123053 !important;
+}
+@font-face {
+    font-family:'openSans';
+    src: url('fonts/opensans-regular.eot');
+    src: url('fonts/opensans-regular.eot') format('embedded-opentype'),
+         url('fonts/opensans-regular.woff') format('woff'),
+         url('fonts/opensans-regular.ttf') format('truetype'),
+         url('fonts/opensans-regular.svg#OpenSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('fonts/opensans-bold.eot');
+    src: url('fonts/opensans-bold.eot') format('embedded-opentype'),
+         url('fonts/opensans-bold.woff') format('woff'),
+         url('fonts/opensans-bold.ttf') format('truetype'),
+         url('fonts/opensans-bold.svg#OpenSansBold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('fonts/opensans-light.eot');
+    src: url('fonts/opensans-light.eot') format('embedded-opentype'),
+         url('fonts/opensans-light.woff') format('woff'),
+         url('fonts/opensans-light.ttf') format('truetype'),
+         url('fonts/opensans-light.svg#OpenSansLight') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: url('fonts/opensans-semibold.eot');
+    src: url('fonts/opensans-semibold.eot') format('embedded-opentype'),
+         url('fonts/opensans-semibold.woff') format('woff'),
+         url('fonts/opensans-semibold.ttf') format('truetype'),
+         url('fonts/opensans-semibold.svg#OpenSansSemibold') format('svg');
+}
+.container{max-width: 1030px !important;}
+.logo{margin: 15px 0 25px 0;}
+#menu{width: 100%;height: 37px;
+background:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+background: #eeeeee; /* Old browsers */
+background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+border: 1px solid #90a4ae; border-bottom: none;border-top-left-radius: 10px;
+border-top-right-radius: 10px;}
+#menu ul{margin: 0;padding: 0;list-style: none;}
+#menu ul li{float: left;line-height: 36px;border-right: 1px solid #b9b9b9; position: relative;}
+#menu ul li:last-child{border-right: none;}
+#menu ul li a{font-size: 14px;color: #121213;text-transform: uppercase;padding: 0 38px;}
+#menu ul li a:hover{text-decoration: none;}
+#menu ul li ul li {display: block;position: relative;float: left;border:1px solid #cecece;}
+#menu ul li ul {display: none;}
+#menu ul li ul li a {display: block;background: #cbd4d8; padding: 2px 10px 2px 10px;text-decoration: none;
+           white-space: nowrap;color: #121213;font-size: 13px;}
+#menu ul li:hover ul {display: block; position: absolute;
+  top:100%;z-index: 1000;
+  left:0;
+  background:#fff;
+  padding:0}
+#menu ul li:hover li {float: none;}
+#menu ul li:hover a {}
+#menu ul li:hover li a:hover {background: #E0E0E0;}
+#menu li ul li {border-top: 0px;}
+.slicknav_menu{display:none;}
+.banner ul{margin: 0;padding: 0;list-style: none}
+.headermenu{width: 100%;float: left;padding: 0 30px;}
+.home-left{width: 100%;float: left;background: #ffffff;padding:25px 40px 25px 0;min-height: 493px;}
+.home-right{width: 100%;float: left;background: #ebebeb;}
+.heading{width: 100%;float: left;background: #9E9E9E; border-bottom: 5px solid #BDBDBD; height: 39px;margin-bottom: 10px;}
+.heading h1{margin: 5px 0 0 25px; font-size: 20px; color: #ffffff;font-family: 'OpenSansBold';text-transform: capitalize;}
+.nopadding{padding: 0 !important;}
+p{color: #2d2d2d !important;line-height: 24px;}
+.home-left p{margin-left: 30px;}
+.home-left h2{margin-left: 30px;font-family: 'OpenSansBold';font-size: 15px;color: #104ab4;}
+.home-left ul{margin:0;padding:0;list-style:none;margin-left: 60px;}
+.home-left ul li{font-size: 14px;font-family: 'OpenSansSemibold';color: #2d2d2d;line-height: 30px;background: url('img/listarrow.png') no-repeat top 10px left;
+padding-left: 20px;}
+.home-left ul li a{font-size: 14px;font-family: 'OpenSansSemibold';color: #2d2d2d;}
+.textindent{text-indent: 57px;}
+.social{margin-top: 20px;margin-right: 40px;float: right;}
+.social a img{margin-right: 20px;}
+.social span{font-size: 14px;color: #ffffff;margin-right: 20px;}
+.copyright{margin: 50px 0 0px 0;color: #5884b7 !important;}
+.copyright p{color: #5884b7 !important;}
+.copyright a{color: #10e6ee !important;}
+.copyright span{color: #10e6ee !important;}
+.back{background: #ebebeb;padding: 0 !important;width: 1000px !important;}
+.sideform{width: 307px;height: 480px;background: #007ee5;display: inherit;margin: auto;margin-top: 13px;}
+.sideform-heading{width: 307px;height: 60px;float: left;background: #006dc6;margin-bottom: 23px;
+text-align: center;line-height: 60px;color: #ffffff;font-size: 22px;}
+.inputbox{width: 255px;height: 43px;background: #ffffff;font-size: 16px;color: #939393;padding-left: 12px;
+display: block;margin: auto;margin-bottom: 36px;border:0;}
+.submit{width: 255px;height: 43px;background: #cfd8dc; font-size: 16px;color: #232323;display: block;margin: auto;
+text-transform: uppercase;font-family: 'OpenSansSemibold';text-align: center;line-height: 43px;cursor: pointer;border:0;}
+.submit:hover{ background: #eceff1;}
+
+.marginTop{margin-top: 20px;}
+.home-left h4{margin-left: 30px;margin-top: 60px;}
+.studentno{display: inline-block;
+    width: 250px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background: #f6f6f6 !important;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;}
+    .verify{width: 100%;float: left;padding: 20px 30px;}

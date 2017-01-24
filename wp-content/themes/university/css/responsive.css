@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px){
+	.slicknav_menu{display:block;}
+	#menu{display: none;}
+	.back{width: auto !important;}
+	.social a img {margin-right: 10px;}
+	.social {margin-top: 10px;margin-bottom: 10px;width: 100%;float: left;}
+	.copyright {margin: 10px 0 0px 0;}
+	.sideform{margin: auto;margin-top: 10px;margin-bottom: 10px;}
+	.home-left{padding-right: 25px;}
+	.social span{margin-right: 10px;}
+}
